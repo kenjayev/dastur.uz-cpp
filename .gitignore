@@ -1,32 +1,55 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Kompilyatsiya qilingan ob'ekt fayllari
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
 # Compiled Dynamic libraries
+*.dll
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
 *.lib
+*.a
 
-# Executables
-*.exe
+# Yig'ilgan fayllar
 *.out
-*.app
+*.exe
+
+# CMake fayllari
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Unix fayllari
+*.swp
+*~
+.DS_Store
+
+# IDE-specific fayllar
+.idea/
+.vscode/
+*.code-workspace
+
+# Log va temp fayllari
+*.log
+*.tmp
+
+# Coverage fayllari
+*.gcno
+*.gcda
+*.gcov
+
+# Debug fayllari
+*.dSYM/
+*.stackdump
+
+# Paketlar
+*.tar
+*.gz
+*.zip
+*.7z
+
+# Binary fayllar
+bin/
+build/
