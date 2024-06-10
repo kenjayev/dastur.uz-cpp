@@ -48,10 +48,12 @@ int main()
     t = ((v1 + v2) * t2 + v1*t1) / (2 * v1 + v2);
     cout << v << " " << t << endl;
     */
+    /*
     float x, y, s;
     cout << "x va y kriting: " ; cin >> x >> y;
     s = (fabs(x) - fabs(y)) / (1 - fabs(x*y));
     cout << s << endl;
+    */
 
 
     return 0;
